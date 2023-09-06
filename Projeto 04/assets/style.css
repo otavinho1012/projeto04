@@ -1,0 +1,77 @@
+body{
+/* No body sempre é bom começar definindo cores, margin e fonts! */
+ background-color: #2F2E41;
+ color: white;
+ font-family: 'JetBrains Mono', monospace;
+margin: 40px 108px 0px  91px;
+}
+
+
+header{
+    /* falando que os elementos dentro do header são flexiveis */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+ ul {
+    list-style: none;
+    gap: 48px;
+    /* falando pro ul que tudo dentro dele é flexivel */
+    display: flex;
+    
+}
+
+ li:hover{
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    margin: 80px 0px 15px 0px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    width: 1350px;
+}
+
+section span{
+    
+color: #00BFA6;
+
+}
+
+section p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    font-size: 16px;
+}
+
+h1{
+    /* alinhando um texto no centro */
+    align-items: center;
+    text-align: center;
+    font-size: 36PX;
+    border: 0px;
+}
+
+
+footer {
+    margin-top: 201px;
+    
+    width: 568px;
+}
+
+footer p{
+    margin-right: 331px 200px 20px 427px;
+
+}
